@@ -10,147 +10,151 @@
         <OtherUnitFiles Value="source"/>
         <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
       </SearchPaths>
+      <CodeGeneration>
+        <SmartLinkUnit Value="True"/>
+        <Optimizations>
+          <OptimizationLevel Value="3"/>
+        </Optimizations>
+      </CodeGeneration>
+      <Linking>
+        <Debugging>
+          <GenerateDebugInfo Value="False"/>
+        </Debugging>
+      </Linking>
     </CompilerOptions>
-    <Files Count="34">
+    <Files Count="33">
       <Item1>
-        <Filename Value="asn1util.pas"/>
+        <Filename Value="source/asn1util.pas"/>
         <UnitName Value="asn1util"/>
       </Item1>
       <Item2>
-        <Filename Value="blcksock.pas"/>
+        <Filename Value="source/blcksock.pas"/>
         <UnitName Value="blcksock"/>
       </Item2>
       <Item3>
-        <Filename Value="clamsend.pas"/>
+        <Filename Value="source/clamsend.pas"/>
         <UnitName Value="clamsend"/>
       </Item3>
       <Item4>
-        <Filename Value="dnssend.pas"/>
+        <Filename Value="source/dnssend.pas"/>
         <UnitName Value="dnssend"/>
       </Item4>
       <Item5>
-        <Filename Value="ftpsend.pas"/>
+        <Filename Value="source/ftpsend.pas"/>
         <UnitName Value="ftpsend"/>
       </Item5>
       <Item6>
-        <Filename Value="ftptsend.pas"/>
+        <Filename Value="source/ftptsend.pas"/>
         <UnitName Value="ftptsend"/>
       </Item6>
       <Item7>
-        <Filename Value="httpsend.pas"/>
+        <Filename Value="source/httpsend.pas"/>
         <UnitName Value="httpsend"/>
       </Item7>
       <Item8>
-        <Filename Value="imapsend.pas"/>
+        <Filename Value="source/imapsend.pas"/>
         <UnitName Value="imapsend"/>
       </Item8>
       <Item9>
-        <Filename Value="ldapsend.pas"/>
+        <Filename Value="source/ldapsend.pas"/>
         <UnitName Value="ldapsend"/>
       </Item9>
       <Item10>
-        <Filename Value="mimeinln.pas"/>
+        <Filename Value="source/mimeinln.pas"/>
         <UnitName Value="mimeinln"/>
       </Item10>
       <Item11>
-        <Filename Value="mimemess.pas"/>
+        <Filename Value="source/mimemess.pas"/>
         <UnitName Value="mimemess"/>
       </Item11>
       <Item12>
-        <Filename Value="mimepart.pas"/>
+        <Filename Value="source/mimepart.pas"/>
         <UnitName Value="mimepart"/>
       </Item12>
       <Item13>
-        <Filename Value="nntpsend.pas"/>
+        <Filename Value="source/nntpsend.pas"/>
         <UnitName Value="nntpsend"/>
       </Item13>
       <Item14>
-        <Filename Value="pingsend.pas"/>
+        <Filename Value="source/pingsend.pas"/>
         <UnitName Value="pingsend"/>
       </Item14>
       <Item15>
-        <Filename Value="pop3send.pas"/>
+        <Filename Value="source/pop3send.pas"/>
         <UnitName Value="pop3send"/>
       </Item15>
       <Item16>
-        <Filename Value="slogsend.pas"/>
+        <Filename Value="source/slogsend.pas"/>
         <UnitName Value="slogsend"/>
       </Item16>
       <Item17>
-        <Filename Value="smtpsend.pas"/>
+        <Filename Value="source/smtpsend.pas"/>
         <UnitName Value="smtpsend"/>
       </Item17>
       <Item18>
-        <Filename Value="snmpsend.pas"/>
+        <Filename Value="source/snmpsend.pas"/>
         <UnitName Value="snmpsend"/>
       </Item18>
       <Item19>
-        <Filename Value="sntpsend.pas"/>
+        <Filename Value="source/sntpsend.pas"/>
         <UnitName Value="sntpsend"/>
       </Item19>
       <Item20>
-        <Filename Value="ssfpc.pas"/>
-        <AddToUsesPkgSection Value="False"/>
-        <UnitName Value="ssfpc"/>
+        <Filename Value="source/ssl_openssl.pas"/>
+        <UnitName Value="ssl_openssl"/>
       </Item20>
       <Item21>
-        <Filename Value="sswin32.pas"/>
-        <AddToUsesPkgSection Value="False"/>
-        <UnitName Value="sswin32"/>
+        <Filename Value="source/ssl_openssl_lib.pas"/>
+        <UnitName Value="ssl_openssl_lib"/>
       </Item21>
       <Item22>
-        <Filename Value="synachar.pas"/>
+        <Filename Value="source/synachar.pas"/>
         <UnitName Value="synachar"/>
       </Item22>
       <Item23>
-        <Filename Value="synacode.pas"/>
+        <Filename Value="source/synacode.pas"/>
         <UnitName Value="synacode"/>
       </Item23>
       <Item24>
-        <Filename Value="synacrypt.pas"/>
+        <Filename Value="source/synacrypt.pas"/>
         <UnitName Value="synacrypt"/>
       </Item24>
       <Item25>
-        <Filename Value="synadbg.pas"/>
+        <Filename Value="source/synadbg.pas"/>
         <UnitName Value="synadbg"/>
       </Item25>
       <Item26>
-        <Filename Value="synafpc.pas"/>
+        <Filename Value="source/synafpc.pas"/>
         <UnitName Value="synafpc"/>
       </Item26>
       <Item27>
-        <Filename Value="synaicnv.pas"/>
+        <Filename Value="source/synaicnv.pas"/>
         <UnitName Value="synaicnv"/>
       </Item27>
       <Item28>
-        <Filename Value="synaip.pas"/>
+        <Filename Value="source/synaip.pas"/>
         <UnitName Value="synaip"/>
       </Item28>
       <Item29>
-        <Filename Value="synamisc.pas"/>
+        <Filename Value="source/synamisc.pas"/>
         <UnitName Value="synamisc"/>
       </Item29>
       <Item30>
-        <Filename Value="synaser.pas"/>
+        <Filename Value="source/synaser.pas"/>
         <UnitName Value="synaser"/>
       </Item30>
       <Item31>
-        <Filename Value="synautil.pas"/>
+        <Filename Value="source/synautil.pas"/>
         <UnitName Value="synautil"/>
       </Item31>
       <Item32>
-        <Filename Value="synsock.pas"/>
+        <Filename Value="source/synsock.pas"/>
         <UnitName Value="synsock"/>
       </Item32>
       <Item33>
-        <Filename Value="tlntsend.pas"/>
+        <Filename Value="source/tlntsend.pas"/>
         <UnitName Value="tlntsend"/>
       </Item33>
-      <Item34>
-        <Filename Value="source/asn1util.pas"/>
-        <AddToUsesPkgSection Value="False"/>
-        <UnitName Value="asn1util"/>
-      </Item34>
     </Files>
     <RequiredPkgs Count="1">
       <Item1>
